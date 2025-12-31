@@ -57,3 +57,5 @@ export default nextConfig;
 
 - **Route Handlers are best when redirects are endpoint-specific:**  
   Use Route Handlers (example: `src/app/api/.../route.ts`) when you need to redirect from a specific endpoint only, return a specific status like 307 or 308, or do logic based on request headers, query params, or server-side checks. This keeps redirect logic scoped to that route instead of affecting the whole site like Middleware.
+
+  Anything can refer to documentation https://nextjs.org/docs/app/api-reference/config/next-config-js/redirects
